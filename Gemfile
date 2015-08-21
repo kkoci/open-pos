@@ -19,7 +19,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 2.3.0'
 
 group :development do
   gem "better_errors"
@@ -57,3 +57,10 @@ gem 'simple_form'
 
 # To use debugger
 # gem 'debugger'
+
+# File upload extension
+gem "paperclip", "~> 4.3"
+
+# Admin
+gem 'activeadmin'
+

@@ -1,19 +1,19 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: pos_development
+  database: pos_ruby
   pool: 5
   username: dlaird
-  password:
+  password: dlaird
   host: localhost
   port: 5432
 
-test:
-  adapter: postgresql
-  encoding: unicode
-  database: foo_test
-  pool: 5
-  username: dlaird
-  password:
-  host: localhost
-  port: 5432
+#test:
+#  adapter: postgresql
+#  encoding: unicode
+#  database: foo_test
+#  pool: 5
+#  username: dlaird
+#  password:
+#  host: localhost
+#  port: 5432

@@ -86,7 +86,7 @@ button {
 .dashboard {
 	background: #34495e;
 	@include grid-column(9, $float:left);
-	@include transition(all, $trasition-time, ease-in)
+	@include transition(all, $trasition-time, ease-in);
 	border-radius: 0 5px 5px 0;
 	.editing & {
 		@include grid-column(7, $float:left);
@@ -128,7 +128,7 @@ button {
 .categories {
 	@include grid-column(3, $float:left);
 	padding-top: 10px;
-	@include transition(width, $trasition-time, ease-in)
+	@include transition(width, $trasition-time, ease-in);
 	.editng & {
 		display: none;
 	}
