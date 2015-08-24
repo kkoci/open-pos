@@ -1,5 +1,7 @@
 Pos::Application.routes.draw do
 
+  devise_for :products, ActiveAdmin::Devise.config
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   
   #root to: "home#index"
